@@ -87,6 +87,10 @@ app.get("/success", (req, res) => {
   res.redirect("/");
 });
 
-app.listen("3000", () => {
+var port = process.env.PORT;
+
+if (port == null || port === "") port = "3000";
+
+app.listen(port, () => {
   console.log("Example app at port 3000");
 });
