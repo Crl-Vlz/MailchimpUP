@@ -1,0 +1,17 @@
+{
+  "name": "mailchimp",
+  "version": "1.0.0",
+  "description": "A server example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Velez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mailchimp": "^1.2.1",
+    "request": "^2.88.2"
+  }
+}
