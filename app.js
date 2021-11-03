@@ -36,7 +36,7 @@ app.route("/").post((req, response) => {
 
   const OPTIONS = {
     method: "POST",
-    auth: "zvelcro" + API_KEY,
+    auth: "zvelcro:" + API_KEY,
   };
 
   var data = {
